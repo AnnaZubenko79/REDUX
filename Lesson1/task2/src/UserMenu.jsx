@@ -3,7 +3,6 @@ import { DataContext } from './data-context.js';
 
 class UserMenu extends React.Component {
   render() {
-    // console.log(this.context);
     return (
       <div className="menu">
         <span className="menu__greeting">{this.context.name}</span>
