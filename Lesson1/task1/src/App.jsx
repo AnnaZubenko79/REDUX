@@ -8,7 +8,7 @@ class App extends React.Component {
   };
 
   toggleTheme = () => {
-    const newTheme = this.state.theme === themes.light ? themes.dark : themes.light;
+    const newTheme = this.state.theme === themes.dark ? themes.light : themes.dark;
 
     this.setState({
       theme: newTheme,
